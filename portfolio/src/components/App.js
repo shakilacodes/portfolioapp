@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import "../App.css";
 import Projects from "./Projects";
 import SocialProfiles from "./SocialProfiles";
-import illustration from "./assets/Illustration.png";
+import illustration from "../assets/Illustration.png";
+import Title from "./Title";
 
 class App extends Component {
   state = { displayBio: false };
@@ -22,6 +22,7 @@ class App extends Component {
         />
         <h1>Hi!</h1>
         <p>My name is Shakila</p>
+        <Title />
         <p>I'm always looking for new opportunities to grow.</p>
         {this.state.displayBio ? (
           <div>
