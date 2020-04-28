@@ -5,10 +5,9 @@ import project3 from "../assets/project3.png";
 const PROJECTS = [
   {
     id: 1,
-    title: "Example React App",
-    description:
-      "A React App that I built, involving JS and core web dev concepts",
-    link: "https://github.com/shakilacodes?tab=repositories",
+    title: "Miss Music",
+    description: "A React App that connects to the Spotify API",
+    link: "https://github.com/shakilacodes/MissMusic",
     image: project2,
   },
   {
